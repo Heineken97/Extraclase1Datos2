@@ -1,0 +1,2 @@
+# Extraclase1Datos2
+Se debe desarrollar una aplicación en C++ (GNU Linux) que implemente un grafo utilizando punteros y permita aplicar el algoritmo de Dijkstra. La aplicación debe ser cliente-servidor, utilizando sockets, de manera que el servidor es el que maneja toda la lógica (grafo y algoritmo de Dijkstra), mientras que el cliente corresponde a una interfaz gráfica sencilla que permita probar el algoritmo
