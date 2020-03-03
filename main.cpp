@@ -7,12 +7,20 @@
 #include <sys/socket.h>
 #include <netinet/in.h>
 #include <netdb.h>
-
+/*!
+ * @brief Error of sockets
+ */
+//
 void error( const char *msg){
     perror(msg);
     exit(1);
 }
 
+
+/*!
+ * @brief Opens the GUI and the socket
+ */
+//
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);

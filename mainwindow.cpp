@@ -14,6 +14,10 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
+/*!
+ * @brief calculates dijkstra and handles showing data
+ */
+//
 void MainWindow::on_pushButton_clicked()
 {
     ui->textBrowser->setText("House");
